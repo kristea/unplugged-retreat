@@ -102,11 +102,20 @@ textarea {
    ul,
    ol {
     list-style-type: none;
+    padding: 0;
    }
 
    a {
     color: #e2e3ed;
     text-decoration: none;
+   }
+
+   img {
+    width: 100%;
+   }
+    
+   figure {
+    margin: 0;
    }
 
    h2 {
@@ -160,6 +169,14 @@ header .content-wrapper {
   margin: 0;
  }
 
+header figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 60%;
+}
+
 .header-divider {
   width: 100%;
   height: 1px;
@@ -169,7 +186,7 @@ header .content-wrapper {
 
 header nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
@@ -180,7 +197,7 @@ header nav {
 
 header nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -227,6 +244,11 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  color: #e2e3ed;
+  background: url('../img/girl.jpg') #999;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-area h1 {
@@ -279,6 +301,11 @@ input[type=button] {
   justify-content: center;
   flex-flow: row wrap;
   padding: 0 20px;
+  color: #e2e3ed;
+  background: url('../img/bonfire.jpg') #202322;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .features .features-items {
@@ -310,6 +337,7 @@ input[type=button] {
   background-color: #2a423a;
   color: #e2e3ed;
 }
+
 
 .reviews h2 {
   margin-bottom: 40px;
