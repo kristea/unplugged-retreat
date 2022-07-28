@@ -240,6 +240,7 @@ footer .copyright {
 /*------------ Mobile styles - Homepage ----------------------*/
 
 /* --- Hero area ----- */ 
+
 .hero-area {
   display: flex;
   justify-content: center;
@@ -536,6 +537,10 @@ input[type=button] {
     display: none;
   }
 
+  header img {
+    max-width: 50%;
+  }
+
   /* Hero area */
 
   .hero-area h1 {
@@ -575,10 +580,6 @@ input[type=button] {
 
   /* Reviews */
 
-  .reviews article div {
-    width: 49%;
-  }
-
   .reviews article {
     display: flex;
     justify-content: space-between;
@@ -588,11 +589,17 @@ input[type=button] {
     width: 85%;
   }
 
+  .reviews article figure,
+  .reviews article div {
+    width: 49%;
+  }
+
   .reviews h3 {
     width: 75%;
     margin: 0;
-}
+  }
 
+  
   /* Footer */
 
 footer .content-wrapper {
@@ -685,6 +692,9 @@ footer p {
     padding: 15px 0;
   }
 
+  header nav ul li {
+    padding: 0 0 0 40px;
+  }
   h2 {
     font-size: 2.25em;
   }
@@ -699,11 +709,19 @@ footer p {
       line-height: 1.333;
   }
 
+  header img {
+    max-width: 50%;
+  }
+
   /* Hero area */
 
   .hero-area h1 {
-    width: 60%;
+    width: 80%;
     font-size: 3.75em;
+  }
+
+  .hero-area {
+    min-height: 660px;
   }
 
   /* Aside */
