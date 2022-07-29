@@ -224,7 +224,6 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 20px;
 
 }
 
@@ -662,6 +661,12 @@ footer h4 {
 footer p {
     line-height: 1.285;
 }
+
+footer .social-icons p {
+  margin: 0 20px;
+
+}
+
 
 /*--------------- About page -----------------*/
 
