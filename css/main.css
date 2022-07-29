@@ -553,8 +553,8 @@ input[type=button] {
     display: none;
   }
 
-  header img {
-    max-width: 50%;
+  header figure {
+    max-width: 30%;
   }
 
   /* Hero area */
@@ -674,6 +674,10 @@ footer p {
   font-size: 1.5em;
 }
 
+.map figure {
+    padding-bottom: 45.5%; 
+
+}
 /*---------------- FAQ page ------------------*/
 
 .faq .content-wrapper {
@@ -725,8 +729,8 @@ footer p {
       line-height: 1.333;
   }
 
-  header img {
-    max-width: 50%;
+  header figure {
+    max-width: 30%;
   }
 
   /* Hero area */
@@ -804,6 +808,10 @@ footer p {
       line-height: 1;
   }
 
+  .map figure {
+    padding-bottom: 37.5%; 
+
+}
 }
   /* ========================================================================
    Print styles.
